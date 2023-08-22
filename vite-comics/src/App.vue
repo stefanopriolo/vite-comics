@@ -19,7 +19,10 @@ data() {
 <template>
   <TheHeader></TheHeader>
   <main>
-    <h2>Content goes here</h2>
+    <div class="container">
+      <h2>Content goes here</h2>
+    </div>
+    
   </main>
   <Banner></Banner>
   <TheFooter></TheFooter>
@@ -33,6 +36,7 @@ main {
 main h2 {
   padding: 3rem;
   margin-left: 3rem;
+  margin-bottom: 0;
   color: white;
 }
 </style>
