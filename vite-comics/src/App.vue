@@ -18,10 +18,21 @@ data() {
 
 <template>
   <TheHeader></TheHeader>
+  <main>
+    <h2>Content goes here</h2>
+  </main>
   <Banner></Banner>
   <TheFooter></TheFooter>
 </template>
 
 <style>
+main {
+  background-color: black;
+}
 
+main h2 {
+  padding: 3rem;
+  margin-left: 3rem;
+  color: white;
+}
 </style>
