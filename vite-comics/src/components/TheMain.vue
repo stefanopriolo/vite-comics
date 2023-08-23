@@ -80,7 +80,9 @@
 
 main {
     background-image: url(../assets/img/footer-bg.jpg);
+    
 }
+
 h4 {
     color: white;
 }
@@ -88,6 +90,11 @@ h4 {
 .row a {
     text-decoration: none;
     color: #959595;
+}
+
+img {
+    overflow: hidden;
+    
 }
 
 </style>
