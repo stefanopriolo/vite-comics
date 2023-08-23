@@ -31,15 +31,16 @@ data() {
   <TheFooter></TheFooter>
 </template>
 
-<style>
+<style lang="scss">
 main {
   background-color: black;
-}
 
-main h2 {
+
+ h2 {
   padding: 3rem;
   margin-left: 3rem;
   margin-bottom: 0;
   color: white;
+}
 }
 </style>
