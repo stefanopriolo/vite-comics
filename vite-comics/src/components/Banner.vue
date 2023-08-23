@@ -31,8 +31,6 @@ export default {
                 <a href="#">DC POWER VISA</a>
                </div> 
                </div>
-              
-
                
                 
 </template>
@@ -40,6 +38,8 @@ export default {
 <style scoped>
 .banner {
     background-color: #0282f9;
+    /* position: fixed; */
+    /* z-index: auto; */
 }
 .row {
     padding: 3rem;

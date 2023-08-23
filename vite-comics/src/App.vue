@@ -1,12 +1,14 @@
 <script>
 import TheHeader from "./components/TheHeader.vue"
 import Banner from "./components/Banner.vue"
+import TheMain from "./components/TheMain.vue"
 import TheFooter from "./components/TheFooter.vue"
 
 export default {
 components: {
   TheHeader,
   Banner,
+  TheMain,
   TheFooter
 },
 data() {
@@ -25,6 +27,7 @@ data() {
     
   </main>
   <Banner></Banner>
+  <TheMain></TheMain>
   <TheFooter></TheFooter>
 </template>
 
