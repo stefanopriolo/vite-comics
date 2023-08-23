@@ -93,6 +93,9 @@ h4 {
 }
 
 img {
+    position: absolute;
+    top: 400px;
+    left: 800px;
     overflow: hidden;
     
 }
