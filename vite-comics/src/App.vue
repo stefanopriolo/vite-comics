@@ -3,13 +3,15 @@ import TheHeader from "./components/TheHeader.vue"
 import Banner from "./components/Banner.vue"
 import TheMain from "./components/TheMain.vue"
 import TheFooter from "./components/TheFooter.vue"
+import Array from "./components/Array.vue"
 
 export default {
 components: {
   TheHeader,
   Banner,
   TheMain,
-  TheFooter
+  TheFooter,
+  Array
 },
 data() {
   return {}
@@ -22,7 +24,11 @@ data() {
   <TheHeader></TheHeader>
   <main>
     <div class="container">
-      <h2>Content goes here</h2>
+      <div v-for="cards in cards"> 
+        <img :src="thumb.cards" alt="">
+      {{ cards.series }}
+      </div>
+      
     </div>
     
   </main>
